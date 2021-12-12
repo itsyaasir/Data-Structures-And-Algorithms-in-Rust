@@ -39,5 +39,6 @@ fn linear_search(list: &Vec<String>, item: &str) {
     }
 }
 
+// HEY AM CODING ON iPAD
 
 
