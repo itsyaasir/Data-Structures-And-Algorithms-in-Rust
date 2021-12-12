@@ -1,0 +1,11 @@
+Big O notation describes the complexity of your code using algebraic terms.
+
+The O(n) 
+// O(n) - Linear - For Loops , while loops through n items
+
+// n is the number of items in the collection or array or list or vector.
+// The number of operations do not depend on the size of the input and is always constant.
+
+The O(1)
+In this Big O notation , operation is always constant regardless of the value being searched,
+For example when finding an index 
