@@ -22,7 +22,6 @@ fn finding_nemo(list: &Vec<String>) {
         "Time taken: {} microseconds ",
         t2.duration_since(t1).as_millis()
     );
-    // println!("Time taken = {:?} microsecond", end);
 }
 
 // The time taken in all 3 instances was 0 seconds/microseconds.
