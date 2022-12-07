@@ -10,8 +10,9 @@ fn bubble_sort(arr: &mut Vec<u32>) -> Vec<u32> {
         let mut swapped = false;
         for j in 0..arr.len() - 1 {
             if arr[j] > arr[j + 1] {
+                // This is the naive way to swap, rust has more efficient way
                 /*
-                let temp_val = arr[j];
+                let temp_val =arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp_val;
                 */
